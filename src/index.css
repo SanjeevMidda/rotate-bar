@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  transition: all 1s;
+  /* border: 1px solid black; */
+}
+
+.App {
+  display: flex;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+.rotate-container {
+  display: flex;
+  gap: 4px;
+  margin: 20px;
+  width: fit-content;
+  cursor: none;
+}
+
+.line {
+  background-color: black;
+  width: 2px;
+  height: 30px;
+}
+
+.text {
+  width: fit-content;
+}
+
+img {
+  width: 18%;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  height: 100%;
+}
+
+h5 {
+  font-weight: 300;
+}
+
+.text,
+img {
+  margin: 10px;
+}
